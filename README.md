@@ -25,6 +25,52 @@ Each module has its own deployed page, so you can see the solutions live in acti
 - **View Solutions**: Peek into the solution files for effective approaches to each challenge.
 - **Experiment and Learn**: Play around with the code on our deployed pages and test your understanding in a real-world scenario.
 
+## Local Setup and Usage 🛠️
+
+Set up **Grokking the Frontend Interview** locally to dive into the challenges and solutions. Follow these simple steps:
+
+### Setting Up the ReactJS Module
+
+1. **Clone the Repository:**
+
+   ```shell
+   git clone https://github.com/rishavpandey43/grokking-the-frontend-interview.git
+   ```
+
+2. Navigate to repository:
+
+    ```shell
+    cd grokking-the-frontend-interview
+    ```
+
+3. Navigate to desired repo-
+
+    - VanillaJS -
+      - Navigate to vanilla js solutions:
+
+      ```shell
+      cd vanilla-js-solutions
+      ```
+
+    - ReactJS -
+      - Navigate to react js solutions:
+
+      ```shell
+      cd react-js-solutions
+      ```
+
+      - Install dependencies:
+
+      ```shell
+      npm install
+      ```
+
+      - Start the React App:
+
+      ```shell
+      npm run dev
+      ```
+
 ## Contributing 🤝
 
 Got a unique interview challenge to share? Your contributions are welcome! Submit a pull request and help the community grow. 🌱
