@@ -5,6 +5,9 @@ import Accordion from "./modules/2-accordion";
 import Timer from "./modules/3-timer";
 import CountdownTimer from "./modules/4-countdown-timer";
 import MortgageCalculator from "./modules/5-mortgage-calculator";
+import TodoList from "./modules/6-todo-list";
+import TickTackToe from "./modules/7-tick-tack-toe";
+import StarRating from "./modules/8-star-rating";
 
 export const routeList = [
   {
@@ -61,5 +64,34 @@ export const routeList = [
     element: <MortgageCalculator />,
     difficulty: "easy",
     timeEstimate: "45 Minutes",
+  },
+  {
+    id: 6,
+    path: "/06/todo-list",
+    title: "Todo List",
+    description:
+      "Create a todo-list that has an input and deletes/adds new todo in the list.",
+    element: <TodoList />,
+    difficulty: "easy",
+    timeEstimate: "45 Minutes",
+  },
+  {
+    id: 7,
+    path: "/07/tick-tack-toe",
+    title: "Tick Tack Toe",
+    description: "Create a Tick Tack Toe game.",
+    element: <TickTackToe />,
+    difficulty: "medium",
+    timeEstimate: "60 Minutes",
+  },
+  {
+    id: 8,
+    path: "/07/star-rating",
+    title: "Star Rating",
+    description:
+      "Create a star rating widget that allows users to select a rating value.",
+    element: <StarRating />,
+    difficulty: "medium",
+    timeEstimate: "60 Minutes",
   },
 ];

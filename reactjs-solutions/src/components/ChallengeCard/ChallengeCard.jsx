@@ -39,7 +39,7 @@ const ChallengeCard = ({
             <div className="pt-4 pb-2 flex items-center">
               {icon}
               <span
-                className={`inline-block ${color} text-sm font-semibold text-white ml-2`}
+                className={`inline-block ${color} text-sm font-semibold ml-2`}
               >
                 {difficulty}
               </span>
